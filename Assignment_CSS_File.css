@@ -1,0 +1,552 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.image-container img { 
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: -200px;
+  clip-path: polygon(0% 20%, -20% 120%, 1000% 10%);
+}
+
+.logo-container img{
+  position: absolute; 
+  top: -1%;
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  }
+  nav h1{
+  font-family: Verdana;
+  margin:40 20px;
+  font-weight: bold;
+  }
+
+  .Whatsapp-logo-container img{
+    position: absolute;
+    top: 30px; 
+    right: 160px; 
+    width: 40px; 
+    height: 40px;
+    max-width: 100%;
+  }
+  
+  .facebook-logo-container img{
+    position: absolute; 
+    top: 30px; 
+    right: 100px; 
+    width: 40px; 
+    height: 40px;
+    max-width: 100%;
+  }
+
+  .text {
+    position: absolute;
+    top: 111%;
+    left: 19%;
+    width: 458px; 
+    height: 12px;
+    transform: translate(-50%, -50%); 
+    background-image: linear-gradient(to right,Black, Dimgray);
+    padding: 20px;
+  }
+  
+  .text h1 {
+    font-size: 24px; 
+    font-family: Verdana;
+    font-weight: bold; 
+    color: white; 
+    text-align: center;
+    margin-top: -10;
+  }
+  
+  .row{
+    position: relative;
+    top:-280;
+    display: flex;
+    height:29%;
+    justify-content: space-between;
+    background-color: #b2b2b2;
+    }
+
+    .item1{
+      position: relative;
+      font-family: Verdana;
+      line-height: 1.5;
+      left:15;
+      font-size: 18px;
+      padding: 30px;
+      text-align: center;
+    }
+    .item2{
+      position: relative;
+      font-family: Verdana;
+      line-height: 1.5;
+      left:0;
+      font-size: 18px;
+      padding: 30px;
+      text-align: center;
+    }
+    .item3{
+      position: relative;
+      font-family: Verdana;
+      line-height: 1.5;
+      left: -20;
+      font-size: 18px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .last{
+      position: absolute;
+      top:153%;
+      display: flex;
+      height: 800px;
+      width: 1520px;
+      justify-content: space-between;
+      background-color: #dad6df;
+      }
+      
+      .last h1{
+        position: relative;
+        left:80;
+        font-size: 40px; 
+        font-family: Verdana;
+        font-weight: bold; 
+        color: black; 
+        text-align: left;
+        margin-top: 50;
+      }
+
+      .room img{
+        position: absolute;
+        top: 115;
+        left: 82;
+        height: 250px;
+        width: 300px;
+      }
+
+      .room h1{
+        position: absolute;
+        top:44%;
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; 
+        color: black; 
+        text-align: left;
+        margin-top: 50;
+      }
+
+      .room p{
+        position: absolute;
+        font-family: Verdana;
+        top:54%;
+        left:81;
+        font-weight: bold;
+        font-size: 11;
+        line-height: 1.5;
+      }
+
+      .food img{
+        position: absolute;
+        top: 115;
+        left: 570;
+        height: 250px;
+        width: 300px;
+      }
+
+      .food h1{
+        position: absolute;
+        top:44%;
+        right:160;
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; 
+        color: black; 
+        text-align: center;
+        margin-top: 50;
+      }
+
+      .food p{
+        position: relative;
+        font-family: Verdana;
+        top:54%;
+        left:-165;
+        font-weight: bold;
+        font-size: 11;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      .pool img{
+        position: absolute;
+        top: 115;
+        left: 1060;
+        height: 250px;
+        width: 300px;
+      }
+
+      .pool h1{
+        position: absolute;
+        top:44%;
+        left:1302;
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; 
+        color: black; 
+        text-align: center;
+        margin-top: 50;
+      }
+
+      .pool p{
+        position: relative;
+        font-family: Verdana;
+        top:54%;
+        left:-160;
+        font-weight: bold;
+        font-size: 11;
+        text-align: right;
+        line-height: 1.5;
+      }
+
+      .learn1 {
+        position: absolute;
+        top:1570;
+        left:80;
+        background-color: #000000;
+        width: 150;
+        height: 50;
+      }
+
+      .learn1 h2{
+        position: relative; 
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; /* Make the text bold */
+        color: white; /* Set text color */
+        text-align: center;
+        margin-top: 15;
+      }
+
+      .learn2 {
+        position: absolute;
+        top:1570;
+        left:650;
+        background-color: #000000;
+        width: 150;
+        height: 50;
+        
+      }
+      .learn2 h2{
+        position: relative; 
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; /* Make the text bold */
+        color: white; /* Set text color */
+        text-align: center;
+        margin-top: 15;
+      }
+
+      .learn3 {
+        position: absolute;
+        top:1570;
+        left:1210;
+        background-color: #000000;
+        width: 150;
+        height: 50;
+        
+      }
+      .learn3 h2{
+        position: relative; 
+        font-size: 15px; 
+        font-family: Verdana;
+        font-weight: bold; /* Make the text bold */
+        color: white; /* Set text color */
+        text-align: center;
+        margin-top: 15;
+      }
+
+@media screen and (max-width: 800px) {
+  .image-container img { 
+    position: relative;
+    width: 100%;
+    height: auto;
+    top:-47;
+    clip-path: polygon(0% 20%, -20% 120%, 1000% 10%);
+  }
+
+  .logo-container img{
+    position: absolute; 
+    top: 0%;
+    width: 25px;
+    height: 25px;
+    max-width: 100%;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: center;
+    }
+    nav h1{
+    font-family: Verdana;
+    margin:10 8px;
+    font-weight: bold;
+    font-size: 5px;
+    }
+  
+    .Whatsapp-logo-container img{
+      position: absolute;
+      top: 9px; 
+      right: 38px; 
+      width: 8px; 
+      height: 8px;
+      max-width: 100%;
+    }
+    
+    .facebook-logo-container img{
+      position: absolute; 
+      top: 9px; 
+      right: 25px; 
+      width: 8px; 
+      height: 8px;
+      max-width: 100%;
+    }
+
+    .text {
+      position: absolute;
+      top: 22.45%;
+      left: 19%;
+      width: 100px; /* specify the width of the image */
+      height: 0px;
+      transform: translate(-50%, -50%); 
+      background-image: linear-gradient(to right,Black, Dimgray);
+      padding: 9px;
+    }
+    
+    .text h1 {
+      font-size: 8px; 
+      font-family: Verdana;
+      font-weight: bold; /* Make the text bold */
+      color: white; /* Set text color */
+      text-align: center;
+      margin-top: -6;
+    }
+
+    .row{
+      position: relative;
+      top:-66;
+      display: flex;
+      height:6%;
+      justify-content: space-between;
+      background-color: #b2b2b2;
+      }
+  
+      .item1{
+        position: relative;
+        font-family: Verdana;
+        line-height: 1.5;
+        left:0;
+        font-size: 4px;
+        padding: 9px;
+        text-align: center;
+      }
+      .item2{
+        position: relative;
+        font-family: Verdana;
+        line-height: 1.5;
+        left:0;
+        font-size: 4px;
+        padding: 9px;
+        text-align: center;
+      }
+      .item3{
+        position: relative;
+        font-family: Verdana;
+        line-height: 1.5;
+        left: 0;
+        font-size: 4px;
+        padding: 9px;
+        text-align: center;
+      }
+      .last{
+        position: absolute;
+        top:31%;
+        display: flex;
+        height: 200px;
+        width: 360px;
+        justify-content: space-between;
+        background-color: #dad6df;
+        }
+        
+        .last h1{
+          position: relative;
+          left:15;
+          font-size: 10px; 
+          font-family: Verdana;
+          font-weight: bold; 
+          color: black; 
+          text-align: left;
+          margin-top: 18;
+        }
+
+        .room img{
+          position: absolute;
+          top: 40;
+          left: 14;
+          height: 65px;
+          width: 78px;
+        }
+  
+        .room h1{
+          position: absolute;
+          top:32%;
+          font-size: 5px; 
+          font-family: Verdana;
+          font-weight: bold; 
+          color: black; 
+          text-align: left;
+          margin-top: 50;
+        }
+
+        .room p{
+          position: absolute;
+          font-family: Verdana;
+          top:62%;
+          left:14;
+          font-weight: bold;
+          font-size: 3px;
+          line-height: 1.3;
+        }
+        
+        .food img{
+          position: absolute;
+          top: 40;
+          left: 138;
+          height: 65px;
+          width: 78px;
+        }
+
+        .food h1{
+          position: absolute;
+          top:32%;
+          left:165;
+          font-size: 5px; 
+          font-family: Verdana;
+          font-weight: bold; 
+          color: black; 
+          text-align: left;
+          margin-top: 50;
+        }
+
+        .food p{
+          position: absolute;
+          font-family: Verdana;
+          top:62%;
+          left:141;
+          font-weight: bold;
+          font-size: 3px;
+          line-height: 1.3;
+        }
+
+        .pool img{
+          position: absolute;
+          top: 40;
+          left: 262;
+          height: 65px;
+          width: 78px;
+        }
+
+        .pool h1{
+          position: absolute;
+          top:32%;
+          left:321;
+          font-size: 5px; 
+          font-family: Verdana;
+          font-weight: bold; 
+          color: black; 
+          text-align: left;
+          margin-top: 50;
+        }
+
+        .pool p{
+          position: absolute;
+          font-family: Verdana;
+          top:62%;
+          left:266;
+          font-weight: bold;
+          font-size: 3px;
+          line-height: 1.3;
+        }
+
+        .learn1 {
+          position: absolute;
+          top:400;
+          left:14;
+          background-color: #000000;
+          width: 42;
+          height: 13;
+        }
+  
+        .learn1 h2{
+          position: relative; 
+          font-size: 4px; 
+          font-family: Verdana;
+          font-weight: bold; /* Make the text bold */
+          color: white; /* Set text color */
+          text-align: center;
+          margin-top: 4;
+        }
+
+        .learn2 {
+          position: absolute;
+          top:400;
+          left:157;
+          background-color: #000000;
+          width: 42;
+          height: 13;
+        }
+  
+        .learn2 h2{
+          position: relative; 
+          font-size: 4px; 
+          font-family: Verdana;
+          font-weight: bold; /* Make the text bold */
+          color: white; 
+          text-align: center;
+          margin-top: 4;
+        }
+
+        .learn3 {
+          position: absolute;
+          top:400;
+          left:297;
+          background-color: #000000;
+          width: 42;
+          height: 13;
+        }
+  
+        .learn3 h2{
+          position: relative; 
+          font-size: 4px; 
+          font-family: Verdana;
+          font-weight: bold; /* Make the text bold */
+          color: white; /* Set text color */
+          text-align: center;
+          margin-top: 4;
+        }
+  
+        
+
+        
+
+}
+
+
+
